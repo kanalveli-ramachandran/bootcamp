@@ -28,6 +28,27 @@ You will need the following things properly installed on your computer.
 
 Make use of the many generators for code, try `ember help generate` for more details
 
+
+Sample Generators used in the project,
+
+Routes:
+
+ember generate route 'home'
+ember g route 'home/members'
+ember g route 'home/members/index'
+ember g route 'home/members/show'
+
+Models:
+
+ember g model 'intern'
+ember g model 'product'
+
+Components:
+
+ember g component 'intern-list' --pods
+ember g component 'intern-show' --pods
+
+
 ### Running Tests
 
 * `ember test`
@@ -52,6 +73,10 @@ Specify what it takes to deploy your app.
 
 * [ember.js](https://emberjs.com/)
 * [ember-cli](https://ember-cli.com/)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
