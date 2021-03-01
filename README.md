@@ -1,7 +1,10 @@
 # bootcamp
 
+This is a base scaffold with a few samples for the bootcamp project. 
+
+I've also added \[TODO] across the app for places you can code more to learn.
+
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
 
 ## Prerequisites
 
@@ -33,20 +36,25 @@ Sample Generators used in the project,
 
 Routes:
 
-ember generate route 'home'
-ember g route 'home/members'
-ember g route 'home/members/index'
-ember g route 'home/members/show'
+`ember generate route 'home'`
+
+`ember g route 'home/members'`
+
+`ember g route 'home/members/index'`
+
+`ember g route 'home/members/show'`
 
 Models:
 
-ember g model 'intern'
-ember g model 'product'
+`ember g model 'intern'`
+
+`ember g model 'product'`
 
 Components:
 
-ember g component 'intern-list' --pods
-ember g component 'intern-show' --pods
+`ember g component 'intern-list' --pods`
+
+`ember g component 'intern-show' --pods`
 
 
 ### Running Tests
