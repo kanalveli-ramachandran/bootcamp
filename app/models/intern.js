@@ -10,7 +10,7 @@ export default class InternModel extends Model {
   lastName;
 
   @belongsTo('product')
-  internProduct;
+  product;
 
   // [TODO] Add as many more properties as your imagination takes you.
   // [TODO] Add computed for fullName
